@@ -4,7 +4,7 @@ const BACKEND_URL = 'http://localhost:3000'; // Mude para a URL do Railway após
 // CONFIGURAÇÃO DO SUPABASE (Frontend)
 const { createClient } = window.supabase;
 const supabase = createClient(
-    'postgresql://postgres.eanvcvxvckalashwccru:R27Ik7BgoguRkkZg@aws-1-us-east-1.pooler.supabase.com:5432/postgres', // Cole aqui a URL do seu projeto Supabase
+    'https://eanvcvxvckalashwccru.supabase.co', // Cole aqui a URL do seu projeto Supabase
     'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVhbnZjdnh2Y2thbGFzaHdjY3J1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzA2ODUwMzEsImV4cCI6MjA4NjI2MTAzMX0.I22_XFboomVmDuqJnA1giXUThApfQ5C-DW4CldUwaIg' // Cole aqui a chave ANON do seu projeto Supabase
 );
 
